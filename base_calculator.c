@@ -1,3 +1,11 @@
+/*This adapted Reverse Polish Notation Calculator takes in command line arguments in the format
+of 0b######## for binary values, 0x######## for Hexadecimal values, and ######## for base 10
+integers. From there, it parses the inputs, converts them to decimal, and adds them to a
+simulated stack architecture. It takes operations in the form of "add", "sub", "mult", and "div".
+Using these operations, it follows the workflow of an RPN, starting from the top of the stack
+until there are no values besides the top, which it then prints out.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

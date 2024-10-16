@@ -1,3 +1,10 @@
+/* This Reverse Polish Notation calculator takes in command line arguments in the form of decimal integers
+in the form ########, and uses a simulated stack architecture to process the values. It also takes in
+operation values, being "add", "sub", "mult", and "div" to calculate the resulting answer. It works from 
+the top to the bottom of the stack, finally printing the remaining value, or an error if there are
+mismatched numbers of values and operators.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
